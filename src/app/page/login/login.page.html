@@ -1,0 +1,33 @@
+
+
+<ion-content>
+	<div class ="background">
+		<div class="logo">
+			<img src="./assets/image/logo.png" alt="logo">
+		</div>
+		<div class="main_img">
+
+			<img src="./assets/image/login_img.png" alt="login" >
+		</div>
+
+
+
+		<div class="log_content">
+			<div>
+				<h1 class="title">Log in</h1>
+			</div>
+			<ion-item>
+				<ion-input placeholder="Username" class="input"></ion-input>
+			</ion-item>
+			<ion-item>
+				<ion-input type="password" placeholder="Password" class="input"></ion-input>
+			</ion-item>
+			<div class="ion-padding">
+				<ion-button expand="block" type="submit" class="btn" [routerLink]="['/confirm-sign']">Log in</ion-button>
+			</div>
+
+			<h6 class="text">Forgot Password?</h6> 
+		</div> 
+	</div>
+
+</ion-content>

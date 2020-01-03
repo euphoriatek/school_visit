@@ -1,0 +1,71 @@
+.background{
+	background: url('/assets/image/background.png') no-repeat;
+	background-size: 100% 100%;
+	display: block;
+}
+
+.logo{
+	max-width: 80px;
+	margin: 0 auto;
+	//padding: 70px 0 40px;
+
+}
+.content{
+	text-align: center;
+	color: #2d2626f0;
+	padding: 4px 11px 30px 9px;
+	font-size: 16px;
+}
+
+
+
+.boxes{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	max-width: 500px;
+	
+}
+.box{
+	background: #c0c0c085;
+	padding: 2px 1px 7px 0px;
+	margin:2px 132px 27px 116px;
+	max-height: 80px;
+	border-radius: 10px;
+}
+
+.in{
+	margin: auto;
+	max-width: 400px;
+	background-color: transparent;
+
+
+}
+.input ,.ion-input{
+	border: 2px solid #80808073;
+	border-radius: 50px;
+	padding: 2px 18px !important;
+	margin-top:10px;
+	font-size: 12px !important;
+}
+.btn1{
+	--background: #1d4c77de !important;
+	--border-radius: 50px !important;
+	text-transform: capitalize !important;
+	margin-top: 0px;
+	height: 38px;
+	font-size: 14px;
+}
+.btn2{
+	--background: #1d4c77de !important;
+	--border-radius: 50px !important;
+	text-transform: capitalize !important;
+	margin-top: 10px;
+	height: 38px;
+	font-size: 14px;
+}
+.bothbtn{
+	margin: auto;
+	max-width: 500px;
+	font-size: 10px !important;
+}

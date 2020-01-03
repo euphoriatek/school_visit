@@ -1,0 +1,30 @@
+
+
+<ion-content>
+	<div class ="background">
+		<div class="logo">
+			<img src="./assets/image/logo.png" alt="logo">
+		</div>
+		
+		<div class="content">
+			Please look in to the camera
+		</div>
+
+		<!-- <div class="ion-padding tpic">
+			<ion-button (click)="open()" class="btn1">Take Photo</ion-button>
+
+		</div> -->
+		<div class="main_img">
+
+			<img src="{{imagefData}}" alt="login"  *ngIf="imagefData">
+		</div>
+
+		<div class="ion-padding bothbtn">
+			<ion-button expand="block" type="submit" class="btn1" [routerLink]="['/thanks-for-sign']">Next</ion-button>
+			<ion-button expand="block" type="submit" class="btn2" [routerLink]="['/yourname']">Back</ion-button>
+		</div>
+
+
+	</div>
+	
+</ion-content>

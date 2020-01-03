@@ -1,0 +1,43 @@
+
+<ion-content>
+	<div class="background">
+
+		<div class="logo">
+			<img src="./assets/image/logo.png" alt="logo">
+		</div>
+
+		<ion-item class="item-native" >
+			<ion-input placeholder="Please Input Name" class="input"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-input placeholder="Please Input your position" class="input"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-datetime displayFormat="MM DD YY" placeholder="Select Date" class="datetime-text">
+				<ion-icon ios="ios-calendar" md="md-calendar"></ion-icon>
+			</ion-datetime>
+		</ion-item>
+
+		<ion-item>
+			<ion-input placeholder="Please Input Number" class="input"></ion-input>
+		</ion-item>
+
+		<div class="boxes">
+			<div class="box1">
+				<ngx-qrcode [(qrc-value)]="created_code"></ngx-qrcode>
+			</div>
+			<div class="box2">
+				
+				<img src="{{userImageData}}" *ngIf="userImageData" style="height: 100px; width: 100px;">
+			</div>
+		</div>
+
+		<div class="ion-padding bothbtn">
+			<ion-button expand="block" type="submit" class="btn1" [routerLink]="['/confirm-sign']">Confirm</ion-button>
+			<ion-button expand="block" type="submit" class="btn2" [routerLink]="['/camera']">Back</ion-button>
+		</div> 
+
+
+	</div>
+
+</ion-content>

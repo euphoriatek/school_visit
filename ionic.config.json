@@ -1,0 +1,7 @@
+{
+  "name": "school_pro",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

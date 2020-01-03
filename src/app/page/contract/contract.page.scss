@@ -1,0 +1,39 @@
+.background{
+	background: url('/assets/image/background.png') no-repeat;
+	background-size: 100% 100%;
+	display: block;
+
+}
+
+.logo{
+	max-width: 80px;
+	margin: 0 auto;
+	padding: 70px 0 40px;
+
+}
+.box{
+	background: #17529d;
+	padding: 1px 25px 4px 33px;
+	max-height: 70px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 10px;
+	margin: 20px 80px;
+}
+
+
+.btn{
+	--background: #1d4c77de !important;
+	--border-radius: 50px !important;
+	text-transform: capitalize !important;
+	padding: 0px 35px;
+	height: 38px;
+	font-size: 14px;
+}
+.bothbtn{
+	
+	margin: auto;
+	max-width: 500px;
+	font-size: 10px !important;
+}

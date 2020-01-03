@@ -1,0 +1,58 @@
+.background{
+	background: url('/assets/image/background.png') no-repeat;
+	background-size: 100% 100%;
+	display: block;
+}
+
+.logo{
+	max-width: 80px;
+	margin: 0 auto;
+	padding: 70px 0 40px;
+}
+.title{
+	text-align: center;
+
+	color: #2d2626f0;
+	padding: 0 10px;
+	font-size: 18px;
+}
+
+.log_content{
+	margin: auto;
+	max-width: 500px;
+	background-color: transparent;
+}
+
+.input ,.ion-input{
+	border: 2px solid #80808073;
+	border-radius: 50px;
+	padding: 4px 57px 0px 15px !important;
+
+	font-size: 12px !important;
+
+}
+.btn1{
+	--background: #1d4c77de !important;
+	--border-radius: 50px !important;
+	text-transform: capitalize !important;
+	margin-top: 80px;
+	height: 38px;
+	font-size: 14px;
+}
+.btn2{
+	--background: #1d4c77de !important;
+	--border-radius: 50px !important;
+	text-transform: capitalize !important;
+	margin-top: 20px;
+	height: 38px;
+	font-size: 14px;
+}
+.bothbtn{
+	margin: auto;
+	max-width: 500px;
+	font-size: 10px !important;
+}
+
+
+
+

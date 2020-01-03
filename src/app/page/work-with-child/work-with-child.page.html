@@ -1,0 +1,37 @@
+
+
+<ion-content>
+
+	<div class="background">
+
+		<div class="logo">
+			<img src="./assets/image/logo.png" alt="logo">
+		</div>
+
+		<div class="content">
+			Do you have a Working with Children Check?
+		</div>
+		
+		<div class="boxes">
+			<div class="box"> 
+				<h1>Yes</h1>
+			</div>
+
+			<div class="box"> 
+				<h1>No</h1>
+			</div>
+		</div>
+
+		<div class="in">
+			<ion-item>
+				<ion-input placeholder="Please Input Your WWCCcard Number [if 'Yes']" class="input"></ion-input>
+			</ion-item>
+		</div>
+
+		<div class="ion-padding bothbtn">
+			<ion-button expand="block" type="submit" class="btn1" [routerLink]="['/yourname']">Next</ion-button>
+			<ion-button expand="block" type="submit" class="btn2" [routerLink]="['/where']">Back</ion-button>
+		</div>
+
+	</div>
+</ion-content>

@@ -1,0 +1,75 @@
+.background{
+	background: url('/assets/image/background.png') no-repeat;
+	background-size: 100% 100%;
+	display: block;
+	min-height: 100vh;
+}
+
+.logo{
+	max-width: 80px;
+	margin: 0 auto;
+	padding: 70px 0 40px;
+
+}
+.content{
+	text-align: center;
+	color: #2d2626f0;
+	padding: 0px 8px 0px 9px;
+	font-size: 16px;
+}
+
+.takepic{
+	margin: 0px 0px 0px 80px;
+	padding: 0px 2px 0px 25px;
+	--background: #3c6388fc;
+}
+
+.main_img{
+	margin: auto;
+	padding: 15px;
+	text-align: center;
+	max-width: 150px;
+	max-height: 200px;
+	height: 160px;
+
+}
+.camImg{
+	max-width: 100%;
+	height: 100px;
+
+}
+
+.log_content{
+	padding: 0px 60px 35px 38px;
+	background-color: transparent;
+}
+.scan{
+
+	margin: auto;
+}
+.btn1{
+	--background: #1d4c77de !important;
+	--border-radius: 50px !important;
+	text-transform: capitalize !important;
+	margin-top: 80px;
+	height: 38px;
+	font-size: 14px;
+}
+.btn2{
+	--background: #1d4c77de !important;
+	--border-radius: 50px !important;
+	text-transform: capitalize !important;
+	margin-top: 20px;
+	height: 38px;
+	font-size: 14px;
+}
+.bothbtn{
+	margin: auto;
+	max-width: 500px;
+	font-size: 10px !important;
+}
+
+
+.tpic{
+	text-align: center;
+}
